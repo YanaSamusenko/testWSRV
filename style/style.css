@@ -43,9 +43,6 @@ html {
 }
 
 @media (max-width: 768px) {
-    .container {
-        padding: 0 50px;
-    }
     .logo {
         max-height: 38px;
     }
