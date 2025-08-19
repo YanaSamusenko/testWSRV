@@ -75,6 +75,7 @@
 @media (max-width: 768px) {
     .header__nav-list {
         display: none;
+        
     }
     .header__burger-icon{
         display: block;
@@ -96,6 +97,12 @@
     }
     .header__burger-icon span:nth-child(3) {
         top: 16px;
+    }
+    .header__burger-icon.is-active span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .header__burger-icon.is-active span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg); 
     }
 }
 
