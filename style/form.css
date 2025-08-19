@@ -1,0 +1,146 @@
+.section-form {
+    background-color: black;
+    padding: 80px 0px;
+    border-top: 2px solid #FEA300;
+    display: flex;
+        justify-content: center;
+}
+.form {
+width: 620px;
+border-radius: 20px;
+background-color: #fff;
+
+
+}
+
+.form__wrap {
+    padding: 50px 84px;
+}
+
+.form__title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 32px;
+
+}
+
+.form__items {
+    margin-bottom: 40px;
+}
+.form__item {
+    margin-bottom: 20px;
+}
+.form__item:last-child {
+    margin-bottom: 0px;
+}
+label {
+    color: #858585;
+    font-weight: 400;
+    font-size: 18px;
+}
+.form__item-name,
+.form__item-tel,
+.form__item-email,
+.companyName,
+.participants{
+border: none;
+border-bottom: 1px solid #000;
+width: 100%;
+outline: none;
+line-height: 20px;
+}
+
+.label-checkbox {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    cursor: pointer;
+
+}
+input[type="checkbox"] {
+    accent-color: black;
+    min-width: 20px;
+    min-height: 20px;
+    margin-right: 14px;
+}
+
+.form__btn-submit {
+    width: 100%;
+    background-color: #FEA300;
+    border: none;
+    height: 77px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .section-form {
+        padding: 60px 0px;
+       
+    }
+    .form {
+        max-width: 450px;
+        
+
+    }
+    .form__wrap {
+        padding: 40px 60px;
+    }
+    .form__title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    label {
+        font-size: 16px;
+    }
+    .form__btn-submit {
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-form {
+        padding: 40px 0px;
+    }
+    .form {
+        width: 100%;
+        border-radius: 15px;
+    }
+    .form__wrap {
+        padding: 25px 25px;
+    }
+    .form__title {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    label {
+        font-size: 15px;
+   }
+    .form__item {
+        margin-bottom: 15px;
+   }
+    input[type="checkbox"] {
+        min-width: 18px;
+        min-height: 18px;
+        margin-right: 10px;
+    }
+    .label-checkbox {
+        font-size: 11px;
+    }
+    .form__btn_submit {
+        height: 50px;
+        font-size: 18px;
+        border-radius: 15px;
+    }
+}
+
+
+

@@ -1,0 +1,71 @@
+@import url("../style/cdn.css");
+@import url("../style/header.css");
+@import url("../style/main.css");
+@import url("../style/form.css");
+@import url("../style/footer.css");
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Fira Sans", "Inter", sans-serif;
+}
+.container {
+    max-width: 1440px;
+    padding: 0 80px;
+    margin: auto;
+    position: relative;
+}
+.logo {
+    width: 139px;
+    height: 49px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-logo {
+    max-height: 27px;
+    object-fit: contain;
+}
+
+.second-logo {
+    object-fit: contain;
+    max-width: 55px;
+    max-height: 13px
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 50px;
+    }
+    .logo {
+        max-height: 38px;
+    }
+    }
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 20px;
+    }
+    .logo {
+         max-height: 28px;
+    }
+        .first-logo {
+            max-height: 17px;
+            object-fit: contain;
+        }
+    
+        .second-logo {
+            object-fit: contain;
+            max-width: 55px;
+            max-height: 10px
+        }
+}
